@@ -1,8 +1,9 @@
 class apache2-php5 {
 
-package { 'apache2':
+package { 'apache2':  
  ensure => installed
 }
+# Asentaa apachen
 
 service { 'apache2':
 ensure => running,
